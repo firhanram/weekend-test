@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'primary' : ['Work Sans']
+      },
+      height: {
+        hero: '41rem'
       }
     },
   },
