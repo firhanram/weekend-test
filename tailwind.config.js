@@ -20,6 +20,10 @@ module.exports = {
       },
       height: {
         section: '41rem',
+        group: '82rem'
+      },
+      width: {
+        '20.5' : '5.5rem'
       },
       borderRadius: {
         '4xl': '1.8rem'
