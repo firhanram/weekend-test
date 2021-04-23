@@ -1,5 +1,6 @@
 import Lego2 from '../../assets/images/lego2.png'
 import Oval from '../../assets/images/oval.png'
+import TestimonialSlider from '../TestimonialSlider'
 
 const Testimonial = () => {
     return (
@@ -17,6 +18,7 @@ const Testimonial = () => {
             <div className="w-10/12 mx-auto">
                 <h3 className="text-primary font-black text-3xl -mt-5 lg:text-center lg:-mt-10">Testimonial</h3>
             </div>
+            <TestimonialSlider />
         </section>
     )
 }
