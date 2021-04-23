@@ -1,5 +1,5 @@
 ## URL
-https://wknd-test.vercel.app/
+https://weekend-test-front-end.vercel.app/
 
 # Getting Started with Create React App
 
