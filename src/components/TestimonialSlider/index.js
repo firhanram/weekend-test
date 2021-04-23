@@ -1,6 +1,6 @@
 import Slider from 'react-slick'
 import './style.css'
-import Slide from '../Slide'
+import {Slide} from '..'
 
 const testimonials = [
     {
@@ -32,7 +32,9 @@ const TestimonialSlider = () => {
                     slidesToShow:2,
                     slidesToScroll:2,
                     infinite: true,
-                    dots:false
+                    centerMode: true,
+                    dots:false,
+                    arrows: true,
                 }
             },
             {
@@ -42,15 +44,17 @@ const TestimonialSlider = () => {
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false,
+                    centerMode: true,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                  centerMode: true,
                   slidesToShow: 1,
                   slidesToScroll: 1,
-                  arrows:false
+                  arrows:false,
+                  centerMode: true,
                 }
             }
         ]

@@ -1,10 +1,10 @@
 import Lego2 from '../../assets/images/lego2.png'
 import Oval from '../../assets/images/oval.png'
-import TestimonialSlider from '../TestimonialSlider'
+import {TestimonialSlider} from '..'
 
 const Testimonial = () => {
     return (
-        <section className="w-full bg-primary h-section relative">
+        <section className="w-full bg-primary md:h-97 h-section relative">
             <div className="flex w-full justify-end">
                 <img src={Lego2} alt="Lego" className="w-36"/>
             </div>
@@ -16,7 +16,7 @@ const Testimonial = () => {
             </div>
             <img src={Oval} alt="oval" className="w-20.5 mt-9 ml-14 lg:ml-72"/>
             <div className="w-10/12 mx-auto">
-                <h3 className="text-primary font-black text-3xl -mt-5 lg:text-center lg:-mt-10">Testimonial</h3>
+                <h3 className="text-primary font-black text-3xl -mt-5 md:text-center md:-mt-10">Testimonial</h3>
             </div>
             <TestimonialSlider />
         </section>

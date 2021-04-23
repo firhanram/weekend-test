@@ -1,11 +1,6 @@
-import { Header, Hero, Testimonial } from "./components"
-import Background from './assets/images/background.png'
+import { Detail, Header, Hero, Testimonial } from "./components"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-
-const style = {
-  backgroundImage: `url(${Background})`
-}
 
 const App = () => {
   return (
@@ -13,6 +8,7 @@ const App = () => {
       <Header />
       <Hero />
       <Testimonial />
+      <Detail />
     </div>
   );
 }
